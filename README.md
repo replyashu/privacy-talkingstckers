@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TalkSticker Privacy Policy</title>
 <style>
   body { font-family: -apple-system, Roboto, "Segoe UI", sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; line-height: 1.6; color: #222; background: #fff; }
   h1 { font-size: 1.6rem; margin-bottom: 0; }
