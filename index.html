@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>TalkSticker Privacy Policy</h1>
-<p class="muted">Effective date: 24 September 2026</p>
+<p class="muted">Effective date: 2 October 2026 (version 1.1)</p>
 
 <p>TalkSticker ("the app") turns short voice clips into videos and stickers of cartoon characters talking. This policy explains what happens to your information.</p>
 
@@ -23,6 +23,8 @@
   <li>Your voice recordings and photos are processed on your phone and are never uploaded to us.</li>
   <li>We do not sell your data or use it for advertising. The app has no ads.</li>
   <li>If you allow it (on by default, and you can switch it off in Settings), the app sends anonymous usage statistics and crash reports so we can fix problems.</li>
+  <li>Purchases are handled entirely by Google Play. We never see your card or UPI details.</li>
+  <li>Invites use a random app ID (not your name, number or email) so we can tell when a friend joined from your link.</li>
 </ul>
 
 <h2>Microphone and voice</h2>
@@ -46,8 +48,20 @@
 </ul>
 <p>This never includes your voice, photos, captions or the names you give characters. It is processed by Google on our behalf under <a href="https://firebase.google.com/support/privacy">Firebase's privacy terms</a>. You can turn it off at any time in Settings. To ask us to delete data collected from your device, email the contact address below.</p>
 
+<h2>Type-to-talk</h2>
+<p>If you type a line instead of speaking, your phone's own text-to-speech engine (for example Speech Services by Google) turns it into audio on your device. The app does not send the text to us.</p>
+
+<h2>Purchases (TalkSticker Pro and character packs)</h2>
+<p>Payments are processed by Google Play under <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments' privacy notice</a>. The app only receives confirmation from Google Play of what you bought, so it can unlock it, and stores that on your phone. If usage statistics are on, Firebase Analytics also records that a purchase happened and its value, so we can see which products people like. We never receive your payment details.</p>
+
+<h2>Invites and free unlocks</h2>
+<p>To give you and your friends free unlocks, the app signs in to Google Firebase with an anonymous, randomly generated ID. That ID is added to the links you share. When a friend installs TalkSticker from your link, their app stores one record in Google Cloud Firestore containing only their random ID, your random ID and the time. Your app then counts how many friends joined. No names, phone numbers, contacts or messages are collected. This works even if usage statistics are off, because it is needed for the invite feature. To have these records deleted, email us with the invite code shown in your shared links, or uninstall the app (the random ID is then no longer used).</p>
+
+<h2>Daily reminder</h2>
+<p>If you switch on the daily reminder, the app schedules a notification on your phone. It is created on the device; nothing is sent to us.</p>
+
 <h2>Install source</h2>
-<p>Links in shared videos point to the app's Google Play page and include which character was used. When the app is installed from such a link, Google Play's Install Referrer tells the app that link's details, so the app can open on the same character. If usage statistics are on, the source is also counted in aggregate.</p>
+<p>Links in shared videos point to the app's Google Play page and include which character was used and, if available, your invite ID. When the app is installed from such a link, Google Play's Install Referrer tells the app that link's details, so the app can open on the same character. If usage statistics are on, the source is also counted in aggregate.</p>
 
 <h2>Children</h2>
 <p>The app is not directed at children under 13. Please don't make photo characters of children.</p>
